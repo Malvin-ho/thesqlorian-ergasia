@@ -9,7 +9,7 @@ SOLUTIONS:
 7. SELECT name FROM padawans WHERE name LIKE 'Lu%';
 8. SELECT name FROM padawans WHERE name LIKE '%Ti';
 9. SELECT name FROM padawans WHERE name LIKE 'A_soka Tano';
-10. SELECT name FROM padawans WHERE name LIKE `_i_ Fisto;`
+10. SELECT name FROM padawans WHERE name LIKE `'_i_ Fisto';`
 11. SELECT AVG(age) AS average_age FROM padawans;
 12. SELECT MAX(age) AS oldest FROM padawans;
 13. SELECT MIN(age) AS youngest FROM padawans;
